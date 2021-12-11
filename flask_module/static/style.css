@@ -1,0 +1,118 @@
+
+
+.submit{
+margin-top: 50px
+}
+* {
+  font-family: segoe, sans-serif;
+}
+
+body{
+
+background: #D4DED4;
+min-height: 100vh
+
+}
+.bg-light{
+background:#D4DED4;
+}
+.navbar-brand{
+margin-left:50px
+
+}
+.nav-link{
+
+font-size: 20px !important;
+}
+
+.content{
+margin-top: 100px;
+margin-right: 150px;
+}
+.drop-zone {
+ margin-top: 100px;
+ margin-left: 30px;
+  max-width: 550px;
+  height: 230px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  cursor: pointer;
+  border: 4px dashed #3ff4d1;
+  border-radius: 10px;
+}
+
+.drop-zone--over {
+  border-style: solid;
+}
+
+.drop-zone__input {
+  display: none;
+}
+
+.drop-zone__thumb {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #ffffff;
+  background-size: cover;
+  position: relative;
+}
+
+.drop-zone__thumb::after {
+  content: attr(data-label);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 5px 0;
+  color: #ffffff;
+  background: rgba(0, 0, 0, 0.75);
+  font-size: 14px;
+  text-align: center;
+}
+
+.container{
+background-color=#a21230
+
+
+}
+.btn-secondary{
+color:white important;
+
+}
+.proceed-btn{
+margin-top:20px;
+
+}
+.proceed-btn2{
+margin-top:20px;
+margin-left:50px;
+
+}
+.container-all{
+height:1000px;
+}
+.container1{
+margin-left:50px;
+}
+.drop-down-menu{
+border:1px ;
+width 120px
+}
+.drop-down-button{
+cursor:pointer;
+}
+.drop-down-menu a{
+display:block;
+padding:4px 10px;
+}
+
+.hide{
+display: none}
